@@ -1,7 +1,7 @@
 ## PureYul instructions
 1) solc --strict-assembly src/PureYul.sol
 2) anvil
-3) pure-yul-practice % cast send --rpc-url http://localhost:8545 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --create 0x6026600b5f3960265ff3fe6005601b565b637eed0172146012575f80fd5b60045f5260205ff35b600160e01b5f35049056
+3) cast send --rpc-url http://localhost:8545 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --create 0x6026600b5f3960265ff3fe6005601b565b637eed0172146012575f80fd5b60045f5260205ff35b600160e01b5f35049056
     - This should give you the following response:
     blockHash               0xee726704036edbd213abd5d478825079d1811431439ac51ec5f0e5658882ebe3
     blockNumber             1
